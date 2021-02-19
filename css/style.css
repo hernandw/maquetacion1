@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.cabecera img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}.cabecera {
+    text-align: center;
+    
+    width: 100%;
+    height: 250px;
+}
+
+.cabecera span {
+    font-size: 40px;
+    color:rgb(84, 158, 9);
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px black;
+    
+}
+
+.menu {
+
+    height: 50px;
+    background-color: black;
+    padding-left: 200px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu_item__item {
+    display: inline-flex;
+    padding: 10px;
+
+}
+
+.container_principal {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/paven.png);
+    border: 1px solid red;
+
+}
+
+.container_central {
+    width: 60%;
+    border: 1px solid red;
+}
+
+.container_lateral {
+width: 15%;
+border: 1px solid red;
+
+}
+
+.container_lateral_usuario {
+    display: block;
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.container_central__articles {
+    width: 80%;
+    background-color: white;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 20px;
+}
+
+.fecha {
+    margin-bottom: 20px;
+    color: grey;
+
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+
+hr {
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.fomulario {
+    display: block;
+}
