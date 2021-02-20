@@ -7,11 +7,13 @@
 
 @font-face {
     font-family: "nevis";
-    src: url(../fonts/nevis.eot);
-    src: url("../fonts/nevis.eot?#iefix") format ("embedded-opentype"),
-    url(../fonts/nevis.woff) format("woff"),
-    url(../fonts/nevis.ttf) format("truetype"),
-    url(../fonts/nevis.svg) format("svg");
+    src: url("../fonts/nevis.eot");
+    src: url("../fonts/nevis.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/nevis.woff") format("woff"),
+    url("../fonts/nevis.ttf") format("truetype"),
+    url("../fonts/nevis.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 .cabecera img {
@@ -20,38 +22,56 @@
     display: block;
     margin: auto;
 }
+
+
 .cabecera {
     text-align: center;
     min-width: 1024px;
     width: 100%;
     height: 250px;
     background-image: url(../img/paven.png);
-}
-
-.cabecera span {
-    font-size: 40px;
-    color:rgb(84, 158, 9);
-    text-transform: uppercase;
-    text-shadow: 0px 2px 2px black;
     
 }
 
-.menu {
+.cabecera h1 {
+    font-family: "nevis";
+    letter-spacing: 4px;
+    margin-top: 10PX;
+    font-size: 40px;
+    color: #70B231;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 1px #333;
+    transition: all 300ms;
+    
+}
 
-    height: 50px;
+.cabecera h1:hover {
+    text-shadow: 0px 2px 1px #333, 0px 0px 4px #70B231 ;; 
+}
+/* Barra de Navegacion */
+.menu {
+    width: 100%;
+    height: 40px;
     background-color: black;
     padding-left: 200px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray ;
     
 }
 
 .menu a {
     text-decoration: none;
     color: white;
+    
 }
 
 .menu_item__item {
     display: inline-flex;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    line-height: 40px;
+    border-right: 1px solid gray;
 
 }
 
