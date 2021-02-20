@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 @font-face {
@@ -17,7 +16,6 @@
 }
 
 .cabecera img {
-    
     height: 140px;
     display: block;
     margin: auto;
@@ -56,23 +54,69 @@
     padding-left: 200px;
     font-family: sans-serif, Arial, Helvetica;
     font-size: 14px;
-    box-shadow: 0px 0px 2px gray ;
-    
+    box-shadow: 0px 0px 2px gray;
 }
 
 .menu a {
     text-decoration: none;
     color: white;
+}
+
+.menu_item {
+    display: flex;
+    list-style: none;
     
 }
 
-.menu_item__item {
-    display: inline-flex;
-    padding-left: 10px;
-    padding-right: 20px;
-    line-height: 40px;
-    border-right: 1px solid gray;
+.menu_item li:hover {
+    box-shadow: 0px 0px 4px green inset;
+}
 
+.menu_item__item {
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+.menu_item li {
+    border-right: 1px solid gray;
+}
+
+.menu_item > li:first-child {
+    padding-left: 20px;
+    border-left: 1px solid gray;
+}
+
+.menu_item > li:hover {
+    background-color: #70B231 ;
+}
+
+
+
+/* Menu desplegable */
+
+nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    width: 160px;
+    box-shadow: 0px 2px 2px gray;
+    z-index: 1;
+    list-style: none;
+    margin-left: -20px;
+}
+
+
+nav > ul > li:hover > ul {
+    display: block;
+
+}
+
+nav > ul > li:hover > ul > li {
+    background-color: #f2f1f0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
 }
 
 .container_principal {
@@ -84,7 +128,7 @@
 }
 
 .container_central {
-    width: 60%;
+    width: 70%;
     border: 1px solid red;
 }
 
