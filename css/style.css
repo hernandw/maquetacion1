@@ -144,12 +144,22 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: rgb(190, 190, 190);
+    text-align: center;    
 }
 
-.container_lateral_usuario {
+.rojo {
+    color: rgb(145, 22, 22);
+}
+
+.azul {
+    color: royalblue;
+}
+
+.container_lateral_usuario, .interes {
     display: block;
     padding: 10px;
     text-align: center;
+    border-bottom: 1px dashed #333;
 
 }
 
@@ -159,12 +169,13 @@ input[type=button]{
     color: white;
     border-radius: 5px;
     width: 60px;
-    padding: 5px;
+    padding: 2px;
 }
 
 .enlaces a {
     text-decoration: none;
     display: block;
+    text-align: left;
 }
 
 .footer {
@@ -203,3 +214,23 @@ hr {
 .fomulario {
     display: block;
 }
+
+.interes {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.interes li {
+    list-style-type: square;
+    
+}
+
+.interes a {
+    text-decoration: none;
+}
+
+.interes li a:visited, .enlaces a {
+    color: #70b231;
+    font-weight: bold;
+}
+
