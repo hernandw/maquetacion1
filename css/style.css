@@ -135,9 +135,9 @@ nav > ul > li:hover > ul > li {
 .container_lateral {
 width: 200px;
 margin: 30px;
-border: 1px solid red;
-background-color: white;
-border: 1px solid #ccc;
+/* border: 1px solid red; */
+
+/* border: 1px solid #ccc; */
 }
 
 h3 {
@@ -159,7 +159,9 @@ h3 {
     display: block;
     padding: 10px;
     text-align: center;
+    border: 1px solid #ccc;
     border-bottom: 1px dashed #333;
+    background-color: white;
 
 }
 
@@ -186,6 +188,7 @@ input[type=button]{
     background-color: black;
     color: white;
 }
+
 .container_central__articles {
     width: 80%;
     background-color: white;
@@ -217,11 +220,12 @@ hr {
 
 .interes {
     text-align: left;
-    margin-left: 15px;
+    
 }
 
 .interes li {
     list-style-type: square;
+    list-style-position: inside;
     
 }
 
@@ -234,3 +238,25 @@ hr {
     font-weight: bold;
 }
 
+.frase {
+    
+    border: 1px solid rgb(197, 195, 195);
+    position: absolute;
+    bottom: -550px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+}
+
+.leer a {
+    text-decoration: none;
+    color: #70b231;
+}
+
+.amarillo {
+    color: darkgoldenrod;
+}
+
+strong {
+    color: #70b231;
+}
