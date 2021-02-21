@@ -260,3 +260,24 @@ hr {
 strong {
     color: #70b231;
 }
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+.pie {
+    text-align: right;
+    margin-right: 180px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pie a {
+    text-decoration: none;
+}
+
+.pie a:visited {
+    color: #70B231;
+    font-weight: bold;
+}
