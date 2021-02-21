@@ -118,7 +118,7 @@ nav > ul > li:hover > ul > li {
     line-height: 25px;
     font-size: 13px;
 }
-
+/* menu */
 .container_principal {
     display: flex;
     justify-content: center;
@@ -133,14 +133,38 @@ nav > ul > li:hover > ul > li {
 }
 
 .container_lateral {
-width: 15%;
+width: 200px;
+margin: 30px;
 border: 1px solid red;
+background-color: white;
+border: 1px solid #ccc;
+}
 
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(190, 190, 190);
 }
 
 .container_lateral_usuario {
     display: block;
     padding: 10px;
+    text-align: center;
+
+}
+
+input[type=button]{
+    margin: 10px;
+    background-color: #70B231;
+    color: white;
+    border-radius: 5px;
+    width: 60px;
+    padding: 5px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    display: block;
 }
 
 .footer {
