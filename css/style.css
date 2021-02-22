@@ -123,13 +123,13 @@ nav > ul > li:hover > ul > li {
     display: flex;
     justify-content: center;
     background-image: url(../img/paven.png);
-    border: 1px solid red;
+   
 
 }
 
 .container_central {
     width: 70%;
-    border: 1px solid red;
+    
 }
 
 .container_lateral {
@@ -182,11 +182,15 @@ input[type=button]{
 
 .footer {
     width: 100%;
-    border: 1px solid red;
     text-align: center;
-    height: 50px;
+    height: 60px;
     background-color: black;
     color: white;
+    padding: 10px;
+}
+
+.foterito {
+padding-bottom: 10px;
 }
 
 .container_central__articles {
@@ -261,7 +265,7 @@ strong {
     color: #70b231;
 }
 
-img {
+.container_central__articles img {
     width: 15px;
     height: 15px;
 }
@@ -281,3 +285,15 @@ img {
     color: #70B231;
     font-weight: bold;
 }
+
+.sticker {
+position: absolute;
+margin-left: 450px;
+top: 300px;
+}
+.sticker2 {
+    position: absolute;
+    margin-left: 1100px;
+    top: 300px;
+    }
+
