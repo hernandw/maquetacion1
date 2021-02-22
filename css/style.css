@@ -129,15 +129,13 @@ nav > ul > li:hover > ul > li {
 
 .container_central {
     width: 70%;
-    
 }
+
 
 .container_lateral {
 width: 200px;
 margin: 30px;
-/* border: 1px solid red; */
 
-/* border: 1px solid #ccc; */
 }
 
 h3 {
@@ -162,8 +160,8 @@ h3 {
     border: 1px solid #ccc;
     border-bottom: 1px dashed #333;
     background-color: white;
-
 }
+
 
 input[type=button]{
     margin: 10px;
@@ -268,7 +266,7 @@ strong {
     color: #70b231;
 }
 
-.container_central__articles img {
+.container_central__articles p img {
     width: 15px;
     height: 15px;
 }
@@ -289,14 +287,13 @@ strong {
     font-weight: bold;
 }
 
-.sticker {
-position: absolute;
-margin-left: 450px;
-top: 300px;
-}
-.sticker2 {
+.stickerone, .stickertwo {
+margin-top: -40px;
     position: absolute;
-    margin-left: 1100px;
-    top: 300px;
+   
     }
+    
+.stickertwo {
+    right: 300px;
+}
 
